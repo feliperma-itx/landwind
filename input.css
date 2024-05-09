@@ -1,3 +1,74 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.root{
+    --color-principal: #d7bd98;
+    --fondo-secundario: #d7bd98;
+}
+
+html { scroll-behavior: smooth; }
+
+.primary-color-text { color: #d7bd98; }
+.secundary-color-text { color: #728761; }
+
+section.cuenta-atras.flex.flex-col.place-items-center.justify-center.justify-items-center.gap-y-20.py-40,
+section.cuenta-atras.flex.flex-col.place-items-center.justify-center.justify-items-center.gap-y-10.py-20,
+section.cuenta-atras.flex.flex-col.place-items-center.justify-center.justify-items-center.gap-y-20.py-10 {
+    background-color:#d7bd98;
+    color: white;
+}
+
+.color-botones {
+    background-color: #d7bd98;
+    color: white;
+}
+
+.botones-verde {
+    background-color: #728761;
+    color: white;
+}
+
+.titulos-seccion{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 6rem;
+    line-height: 1;
+    color: #d7bd98;
+}
+
+.subtitulos{
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.letra-principal{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.letra-poppins{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.letra-footer{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4.5rem;
+}
+
+.separador-contador{
+    border-style: solid;
+    border-right-width: 2px;
+    border-color: white;
+    padding-right: 20px;
+}
