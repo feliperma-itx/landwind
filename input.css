@@ -14,7 +14,7 @@ html { scroll-behavior: smooth; }
 
 section.cuenta-atras.flex.flex-col.place-items-center.justify-center.justify-items-center.gap-y-20.py-40,
 section.cuenta-atras.flex.flex-col.place-items-center.justify-center.justify-items-center.gap-y-10.py-20,
-section.cuenta-atras.flex.flex-col.place-items-center.justify-center.justify-items-center.gap-y-20.py-10 {
+section.cuenta-atras.flex.flex-col.place-items-center.justify-center.justify-items-center.gap-y-10 {
     background-color:#d7bd98;
     color: white;
 }
@@ -63,7 +63,7 @@ section.cuenta-atras.flex.flex-col.place-items-center.justify-center.justify-ite
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    font-size: 4.5rem;
+    font-size: 4rem;
 }
 
 .separador-contador{

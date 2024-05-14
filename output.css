@@ -1228,59 +1228,6 @@ input:checked + .toggle-bg {
           animation: bounce 1s infinite;
 }
 
-@-webkit-keyframes ping {
-  75%, 100% {
-    transform: scale(2);
-    opacity: 0;
-  }
-}
-
-@keyframes ping {
-  75%, 100% {
-    transform: scale(2);
-    opacity: 0;
-  }
-}
-
-.animate-ping {
-  -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
-          animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
-}
-
-@-webkit-keyframes pulse {
-  50% {
-    opacity: .5;
-  }
-}
-
-@keyframes pulse {
-  50% {
-    opacity: .5;
-  }
-}
-
-.animate-pulse {
-  -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-          animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-}
-
-@-webkit-keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.animate-spin {
-  -webkit-animation: spin 1s linear infinite;
-          animation: spin 1s linear infinite;
-}
-
 .cursor-default {
   cursor: default;
 }
@@ -1529,11 +1476,6 @@ input:checked + .toggle-bg {
   padding-right: 1rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -1588,6 +1530,10 @@ input:checked + .toggle-bg {
 
 .pb-20 {
   padding-bottom: 5rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .pt-2 {
@@ -1821,7 +1767,7 @@ html {
 
 section.cuenta-atras.flex.flex-col.place-items-center.justify-center.justify-items-center.gap-y-20.py-40,
 section.cuenta-atras.flex.flex-col.place-items-center.justify-center.justify-items-center.gap-y-10.py-20,
-section.cuenta-atras.flex.flex-col.place-items-center.justify-center.justify-items-center.gap-y-20.py-10 {
+section.cuenta-atras.flex.flex-col.place-items-center.justify-center.justify-items-center.gap-y-10 {
   background-color:#d7bd98;
   color: white;
 }
@@ -1870,7 +1816,7 @@ section.cuenta-atras.flex.flex-col.place-items-center.justify-center.justify-ite
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  font-size: 4.5rem;
+  font-size: 4rem;
 }
 
 .separador-contador{
