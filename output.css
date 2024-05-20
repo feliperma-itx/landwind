@@ -1759,7 +1759,8 @@ html {
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
+  overflow: hidden !important;
 }
 
 .primary-color-text {

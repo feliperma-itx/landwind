@@ -9,7 +9,7 @@
 
 html { scroll-behavior: smooth; overflow-x: hidden; }
 
-body {overflow-x: hidden;}
+body { overflow-x: hidden !important; overflow: hidden !important; }
 
 .primary-color-text { color: #d7bd98; }
 .secundary-color-text { color: #728761; }

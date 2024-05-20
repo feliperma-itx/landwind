@@ -29,6 +29,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script async src="https://tally.so/widgets/embed.js"></script>
     <script defer src="./output.js"></script>
 </head>
 <body id="inicio">
@@ -115,7 +116,7 @@
           }
         }</style><path d="M 0,400 L 0,400 C 278.5,310 557,220 797,220 C 1037,220 1238.5,310 1440,400 L 1440,400 L 0,400 Z" stroke="none" stroke-width="0" fill="#d7bd98" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-0"></path></svg>
     <section class="cuenta-atras flex flex-col place-items-center justify-center justify-items-center gap-y-10 pb-20 pt-10">
-        <h1 data-aos="zoom-in" class="mb-4 text-4xl text-center font-extrabold" id="falta">Falta</h1>
+        <h1 data-aos="zoom-in" class="mb-4 text-4xl text-center font-extrabold" id="falta">¡La cuenta atrás está en marcha!</h1>
         <div id="casados" class="hidden text-3xl">
           <p id="casados-texto" class="animate-bounce text-center"></p>
         </div>
@@ -180,7 +181,20 @@
             </div>
             <div class="flex flex-col place-items-center justify-center justify-items-center gap-y-4">
                 <img src="./images/icono-confirmar.png" class="h-12" alt="icono confirmar boda" />
-                <a href="#" title="Confirmar Boda Ruben y Maria" class="transition duration-500 transform px-6 py-2 hover:opacity-90 hover:shadow-md hover:scale-125 text-white botones-verde focus:ring-4 font-medium rounded-lg text-sm px-10 py-3.5 text-center">Confirmar</a>
+                <!-- <button data-aos="flip-up" title="Confirmar Boda Ruben y Maria" data-modal-target="static-modal2" data-modal-toggle="static-modal2" class="transition duration-500 transform px-6 py-2 hover:opacity-90 hover:shadow-md hover:scale-125 text-white botones-verde focus:ring-4 font-medium rounded-lg text-sm px-10 py-3.5 text-center" type="button">Confirmar</button> -->
+
+                <button data-tally-open="mBGye1" data-tally-layout="modal" data-tally-hide-title="1" data-tally-emoji-text="💒" data-tally-emoji-animation="wave" data-tally-auto-close="5000" class="transition duration-500 transform px-6 py-2 hover:opacity-90 hover:shadow-md hover:scale-125 text-white botones-verde focus:ring-4 font-medium rounded-lg text-sm px-10 py-3.5 text-center">Confirmar</button>
+
+                <!-- <div id="static-modal2" data-modal-backdrop="static" tabindex="-1" class="hidden overflow-y-auto overflow-x-hidden fixed backdrop-filter backdrop-blur-lg bg-opacity-30 top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+                  <div class="relative p-4 w-full max-w-md max-h-full">
+                      <div class="relative bg-white rounded-lg shadow">
+                          <div class="p-4 md:p-5 text-center">
+                            <iframe data-tally-src="https://tally.so/r/mBGye1?transparentBackground=1" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="Confirmación Boda María y Rubén 🌼💍"></iframe>
+                            <button data-modal-hide="static-modal2" type="button" class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Cerrar</button>
+                          </div>
+                      </div>
+                  </div> -->
+              </div>
             </div>
         </div>
     </section>
@@ -221,11 +235,11 @@
         <h1 data-aos="fade-down" class="subtitulos primary-color-text mb-4 text-6xl text-center font-extrabold">¡Fiesta!</h1>
         <img data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-easing="linear" data-aos-duration="500" src="./images/icono-musica.png" class="h-12" alt="icono regalo boda" />
         <p data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-easing="linear" data-aos-duration="800" class="text-center my-7 text-gray-400 text-xl lg:mb-8 md:text-xl lg:text-2xl">¡Dinos que canción no puede faltar en la fista!</p>
-        <a data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-easing="linear" data-aos-duration="1000" href="#" class="transition duration-500 transform px-6 py-2 hover:opacity-90 hover:shadow-md hover:scale-125 text-white botones-verde focus:ring-4 font-medium rounded-lg text-sm px-10 py-3.5 text-center">Sugerir</a>
+        <a data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-easing="linear" data-aos-duration="1000" href="#" target="_blank" class="transition duration-500 transform px-6 py-2 hover:opacity-90 hover:shadow-md hover:scale-125 text-white botones-verde focus:ring-4 font-medium rounded-lg text-sm px-10 py-3.5 text-center">Sugerir</a>
 
         <img data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-easing="linear" data-aos-duration="500" src="./images/icono-comentar.png" class="h-12" alt="icono regalo boda" />
         <p data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-easing="linear" data-aos-duration="800" class="text-center my-7 text-gray-400 text-xl lg:mb-8 md:text-xl lg:text-2xl">¿Hay algo que nos quieras comentar?</p>
-        <a data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-easing="linear" data-aos-duration="1000" href="#" class="transition duration-500 transform px-6 py-2 hover:text-white hover:opacity-90 hover:shadow-md hover:scale-125 text-white botones-verde focus:ring-4 font-medium rounded-lg text-sm px-10 py-3.5 text-center">Dinos</a>
+        <a data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-easing="linear" data-aos-duration="1000" href="mailto:mariayruben95@gmail.com" class="transition duration-500 transform px-6 py-2 hover:text-white hover:opacity-90 hover:shadow-md hover:scale-125 text-white botones-verde focus:ring-4 font-medium rounded-lg text-sm px-10 py-3.5 text-center">Dinos</a>
     </section>
 
     <!-- Regalo -->
@@ -294,7 +308,7 @@
         <p data-aos="fade-down" class="letra-poppins text-center flex flex-col place-items-center justify-center justify-items-center gap-y-4 my-7 font-light text-gray-400 lg:mb-8 md:text-lg lg:text-2xl">
             <span data-aos="fade-down">Rubén - <a href="tel:+34622142319" title="Teléfono Rubén" class="hover:underline hover:decoration-dotted">622 14 23 19 🤵</a></span>
             <span data-aos="fade-down">María - <a href="tel:+34645749710" title="Teléfono María" class="hover:underline hover:decoration-dotted">645 74 97 10 👰</a></span>
-            <span data-aos="fade-down">Raquel (wedding planer) - <a href="tel:+34627290394" title="Teléfono Raquel" class="hover:underline hover:decoration-dotted">627 29 03 94 📱</a><br /></span>
+            <span data-aos="fade-down">Raquel (wedding planer) - <a href="https://wa.me/34627290394" target="_blank" title="Teléfono Raquel" class="hover:underline hover:decoration-dotted">627 29 03 94 📱</a><br /></span>
         </p>
         <img data-aos="zoom-out" src="./images/cadiz.png" class="transition duration-500 hover:-translate-y-1 hover:scale-110" alt="icono cadiz" />
         <h2 data-aos="flip-up" data-aos-duration="8000" class="subtitulos font-bold text-gray-500 mb-4 text-6xl text-center font-extrabold ">¡Os esperamos!</h2>
@@ -328,7 +342,7 @@
     <section class="cuenta-atras flex flex-col place-items-center justify-center justify-items-center gap-y-10 py-20">
         <img data-aos="zoom-out" src="./images/logo-boda-rym.png" alt="Boda Ruben Maria - Logo anillos" />
         <h1 data-aos="zoom-out" class="letra-footer mb-4 text-4xl text-center font-extrabold text-balance line-clamp-2">María y Rubén</h1>
-        <p class="font-bold">Desarrollado con ❤️ por <a href="http://pistakiavera.es" target="_blank">Pistakiavera.es</a></p>
+        <p class="text-center font-bold">Desarrollado con ❤️ por <a href="http://pistakiavera.es" target="_blank">Pistakiavera.es</a></p>
     </section>
 
 <!--
@@ -355,7 +369,6 @@
         </div>
     </footer>
 -->
-    <!-- <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
