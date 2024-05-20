@@ -1755,6 +1755,11 @@ input:checked + .toggle-bg {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .primary-color-text {
