@@ -75,9 +75,12 @@
 
     <!-- Hero Home -->
     <section class="bg-white flex flex-col place-items-center justify-center justify-items-center gap-y-20 pt-40 pb-20">
-        <h1 class="titulos-seccion text-center animate__animated animate__pulse animate__infinite">María & Rubén</h1>
-        <p class="subtitulos my-7 text-xl text-gray-400 text-2xl md:text-3xl">"Si pierdes el norte <br /> que sea por amor"</p>
-        <div class="letra-principal flex flex-col place-items-center justify-center justify-items-center text-gray-300 text-center gap-y-4">
+      <!-- <img src="./images/hojas-derecha.png" class="absolute float-right right-0 h-5/6 w-fit md:w-fit lg:w-fit" alt="hojas derecha boda rym" /> -->
+      <img data-aos="fade-left" src="./images/hojas-derecha.png" class="absolute float-right right-0 h-fit w-3/12 md:w-fit lg:w-fit" alt="hojas derecha boda rym" />
+
+        <h1 data-aos="fade-down" class="titulos-seccion text-center animate__animated animate__pulse animate__infinite">María & Rubén</h1>
+        <p data-aos="zoom-in" class="subtitulos my-7 text-xl text-gray-400 text-2xl md:text-3xl">"Si pierdes el norte <br /> que sea por amor"</p>
+        <div data-aos="fade-down" class="letra-principal flex flex-col place-items-center justify-center justify-items-center text-gray-300 text-center gap-y-4">
             <span>SEPTIEMBRE</span>
             <div class="grid grid-cols-3 gap-x-1 lg:gap-x-2">
               <span>SABADO</span>
@@ -86,6 +89,7 @@
             </div>
             <span>2024</span>
         </div>
+        <img data-aos="fade-right" src="./images/hojas-izquierda.png" class="absolute float-left left-0 h-fit w-3/12 md:w-fit lg:w-fit" alt="hojas izquierda boda rym" />
     </section>
 
     <!-- Cuenta atras fecha -->
@@ -159,8 +163,39 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f4f4f4" fill-opacity="1" d="M0,192L1440,0L1440,320L0,320Z"></path></svg>
     <section id="horario" class="flex flex-col place-items-center justify-center justify-items-center gap-y-20 pt-40 pb-20" style="background-color: #f4f4f4;">
         <h1 data-aos="fade-down" class="subtitulos primary-color-text mb-4 text-6xl text-center font-extrabold">Horario</h1>
-        <img src="./images/icono-regalo.png" class="h-12" alt="icono regalo boda" />
-        <p data-aos="fade-down" class="text-center my-7 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">Lorem ipsum....</p>
+        <div class="grid grid-cols-2">
+          <div id="col1-iz" data-aos="fade-down" class="flex flex-col place-items-center justify-center justify-items-center border-r-2 rounded-tr-lg pr-4 pb-10">
+            <img data-aos="fade-right" src="./images/icono-coche.png" class="h-20" alt="icono coche boda" />
+            <p data-aos="fade-right" class="text-center my-2 text-gray-400 font-bold text-xl">¡Comienza!</p>
+            <p data-aos="fade-right" class="text-center my-2 text-gray-400 text-lg">11:00h Cádiz</p>
+            <p data-aos="fade-right" class="text-center my-2 text-gray-400 text-lg">11:30h Jerez</p>
+          </div>
+          <div id="col1-dcha" data-aos="fade-down" class="flex flex-col place-items-center justify-center justify-items-center border-l-2 rounded-tl-lg border-l-2 pl-4">
+            <img data-aos="fade-left" src="./images/icono-ceremonia.png" class="h-20" alt="icono ceremonia boda" />
+            <p data-aos="fade-left" class="text-center my-2 text-gray-400 font-bold text-xl">Ceremonia</p>
+            <p data-aos="fade-left" class="text-center my-2 text-gray-400 text-lg">13:00h</p>
+          </div>
+          <div id="col2-iz" data-aos="fade-down" class="flex flex-col place-items-center justify-center justify-items-center border-r-2 border-t-4 pr-4">
+            <img data-aos="fade-right" src="./images/icono-coctel.png" class="h-20" alt="icono coctel boda" />
+            <p data-aos="fade-right" class="text-center my-2 text-gray-400 font-bold text-xl">Cóctel</p>
+            <p data-aos="fade-right" class="text-center my-2 text-gray-400 text-lg">14:00h</p>
+          </div>
+          <div id="col2-dcha" data-aos="fade-down" class="flex flex-col place-items-center justify-center justify-items-center border-l-2  pl-4 pb-10">
+            <img data-aos="fade-left" src="./images/icono-banquete.png" class="h-20" alt="icono banquete boda" />
+            <p data-aos="fade-left" class="text-center my-2 text-gray-400 font-bold text-xl">Banquete</p>
+            <p data-aos="fade-left" class="text-center my-2 text-gray-400 text-lg">15:00h</p>
+          </div>
+          <div id="col3-iz" data-aos="fade-down" class="flex flex-col place-items-center justify-center justify-items-center border-r-2 rounded-br-lg pr-4 pt-10">
+            <img data-aos="fade-right" src="./images/icono-fiesta.png" class="h-20" alt="icono fiesta boda" />
+            <p data-aos="fade-right" class="text-center my-2 text-gray-400 font-bold text-xl">Fiesta</p>
+            <p data-aos="fade-right" class="text-center my-2 text-gray-400 text-lg">17:00h</p>
+          </div>
+          <div id="col3-dcha" data-aos="fade-down" class="flex flex-col place-items-center justify-center justify-items-center border-l-2 rounded-bl-lg border-t-4 pl-4 pt-16">
+            <img data-aos="fade-left" src="./images/icono-coche-casados.png" class="h-20" alt="icono nos vamos boda" />
+            <p data-aos="fade-left" class="text-center my-2 text-gray-400 font-bold text-xl">¡Nos vamos!</p>
+            <p data-aos="fade-left" class="text-center my-2 text-gray-400 text-lg">01:00h</p>
+          </div>
+        </div>
     </section>
     <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 390" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><style>
         .path-0{
@@ -189,11 +224,11 @@
     <!-- Fiesta Home -->
     <section id="fiesta" class="bg-white flex flex-col place-items-center justify-center justify-items-center gap-y-10 pt-40 pb-20">
         <h1 data-aos="fade-down" class="subtitulos primary-color-text mb-4 text-6xl text-center font-extrabold">¡Fiesta!</h1>
-        <img data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-easing="linear" data-aos-duration="500" src="./images/icono-musica.png" class="h-12" alt="icono regalo boda" />
+        <img data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-easing="linear" data-aos-duration="500" src="./images/icono-musica.png" class="h-20" alt="icono regalo boda" />
         <p data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-easing="linear" data-aos-duration="800" class="text-center my-7 text-gray-400 text-xl lg:mb-8 md:text-xl lg:text-2xl">¡Dinos que canción no puede faltar en la fista!</p>
         <a data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-easing="linear" data-aos-duration="1000" href="#" target="_blank" class="transition duration-500 transform px-6 py-2 hover:opacity-90 hover:shadow-md hover:scale-125 text-white botones-verde focus:ring-4 font-medium rounded-lg text-sm px-10 py-3.5 text-center">Sugerir</a>
 
-        <img data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-easing="linear" data-aos-duration="500" src="./images/icono-comentar.png" class="h-12" alt="icono regalo boda" />
+        <img data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-easing="linear" data-aos-duration="500" src="./images/icono-comentar.png" class="h-20" alt="icono regalo boda" />
         <p data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-easing="linear" data-aos-duration="800" class="text-center my-7 text-gray-400 text-xl lg:mb-8 md:text-xl lg:text-2xl">¿Hay algo que nos quieras comentar?</p>
         <a data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-easing="linear" data-aos-duration="1000" href="mailto:mariayruben95@gmail.com" class="transition duration-500 transform px-6 py-2 hover:text-white hover:opacity-90 hover:shadow-md hover:scale-125 text-white botones-verde focus:ring-4 font-medium rounded-lg text-sm px-10 py-3.5 text-center">Dinos</a>
     </section>
@@ -202,7 +237,7 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f4f4f4" fill-opacity="1" d="M0,192L1440,0L1440,320L0,320Z"></path></svg>
     <section id="regalo" class="flex flex-col place-items-center justify-center justify-items-center gap-y-20 pb-20" style="background-color: #f4f4f4;">
         <h1 data-aos="fade-down" class="subtitulos primary-color-text mb-4 text-6xl text-center font-extrabold">Regalo</h1>
-        <img data-aos="fade-down" src="./images/icono-regalo.png" class="h-12" alt="icono regalo boda" />
+        <img data-aos="fade-down" src="./images/icono-regalo.png" class="h-20" alt="icono regalo boda" />
         <p data-aos="fade-down" class="text-center my-7 text-gray-400 text-xl lg:mb-8 md:text-xl lg:text-2xl">Si deseáis regalarnos algo más <br />que vuestra hermosa presencia...</p>
         <button data-aos="flip-up" title="Copiar Iban" data-modal-target="static-modal" data-modal-toggle="static-modal" class="transition duration-500 transform px-6 py-2 hover:opacity-90 hover:shadow-md hover:scale-125 text-white botones-verde focus:ring-4 font-medium rounded-lg text-sm px-10 py-3.5 text-center" type="button">Iban</button>
 
@@ -297,7 +332,7 @@
     <section class="cuenta-atras flex flex-col place-items-center justify-center justify-items-center gap-y-10 py-20">
         <img data-aos="zoom-out" src="./images/logo-boda-rym.png" alt="Boda Ruben Maria - Logo anillos" />
         <h1 data-aos="zoom-out" class="letra-footer mb-4 text-4xl text-center font-extrabold text-balance line-clamp-2">María y Rubén</h1>
-        <p class="text-center font-bold">Desarrollado con ❤️ por <a href="http://pistakiavera.es" target="_blank">Pistakiavera.es</a></p>
+        <p class="text-center font-bold">Desarrollado con ❤️ por <a href="http://pistakiavera.es" target="_blank" title="Eventos a medida | Pistakiavera">Pistakiavera.es</a></p>
     </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
