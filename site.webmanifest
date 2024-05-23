@@ -1,6 +1,6 @@
 {
     "name": "Boda Maria y Ruben 2024",
-    "short_name": "boda maria ruben",
+    "short_name": "PWA: Boda MyR",
     "start_url": "https://bodamariaruben2024.netlify.app/",
     "scope": "https://bodamariaruben2024.netlify.app/",
     "theme_color": "#738760",
@@ -22,5 +22,13 @@
             "sizes": "144x144",
 			"type": "image/png"
 		}
-    ]
+    ],
+    "screenshots": [
+        {
+          "src": "/images/screenshot-web.png",
+          "type": "image/png",
+          "sizes": "720x540",
+          "form_factor": "wide"
+        }
+      ]
 }
