@@ -1,6 +1,11 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Boda Maria y Ruben 2024",
+    "short_name": "boda maria ruben",
+    "start_url": "https://bodamariaruben2024.netlify.app/",
+    "scope": "https://bodamariaruben2024.netlify.app/",
+    "theme_color": "#738760",
+    "background_color": "#ffffff",
+    "display": "standalone",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -11,9 +16,11 @@
             "src": "/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
-        }
-    ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
-    "display": "standalone"
+        },
+        {
+			"src": "/android-chrome-144x144.png",
+            "sizes": "144x144",
+			"type": "image/png"
+		}
+    ]
 }
