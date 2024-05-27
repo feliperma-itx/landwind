@@ -26,9 +26,9 @@
   "author": "Themesberg",
   "license": "MIT",
   "devDependencies": {
-    "tailwindcss": "^3.1.4"
+    "tailwindcss": "3.4"
   },
   "dependencies": {
-    "flowbite": "^1.4.7"
+    "flowbite": "2.3.0"
   }
 }
