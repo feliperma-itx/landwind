@@ -9,12 +9,14 @@ Make sure that you have [Node.js](https://nodejs.org/en/), [Tailwind CSS](https:
 2. Watch for files and compile Tailwind CSS + Flowbite:
 
 ```
-npx tailwindcss -i ./input.css -o ./output.css --watch
+npx tailwindcss -i ./input.css -o ./output.min.css --watch
 ```
 
-3. To deploy you will only need the `index.html` file and the `output.css` styles.
+3. To deploy you will only need the `index.html` file and the `output.min.css` styles.
 
 Alternatively, you can also just directly copy this code into your own projects, whether you use Laravel, React, Vue.js or other frameworks.
+
+4. You can use Netlify (or others) and execute the following command: `npx tailwindcss -i ./input.css -o ./output.min.css --minify`
 
 ## Built with Tailwind CSS and Flowbite
 
